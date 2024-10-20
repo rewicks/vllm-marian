@@ -83,6 +83,9 @@ _TEXT_GENERATION_MODELS = {
     # [Encoder-decoder]
     "BartModel": ("bart", "BartForConditionalGeneration"),
     "BartForConditionalGeneration": ("bart", "BartForConditionalGeneration"),
+    "MarianMTModel": ("marian", "MarianForConditionalGeneration"),
+    "MarianModel": ("marian", "MarianForConditionalGeneration"),
+    "MarianForConditionalGeneration": ("marian", "MarianForConditionalGeneration"),
 }
 
 _EMBEDDING_MODELS = {
